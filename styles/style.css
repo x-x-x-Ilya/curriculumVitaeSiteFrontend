@@ -1,0 +1,139 @@
+
+
+header {
+    background-color: rgb(255, 255, 255);
+    height: 63px;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+header>.logo {
+    width: 100px;
+    margin-left: 3px;
+    background-repeat: no-repeat;
+    background-image: url("../img/javascript_logo.svg");
+    display: flex;
+    justify-content: center;
+}
+
+header > .header-block {
+    display: flex;
+    justify-content: right;
+    background-color: rgb(255, 255, 255);
+    width: fit-content;
+}
+
+header > .header-block >a {
+    display: flex;
+    width: fit-content;
+    color: black;
+    padding-top: 18px;
+    padding-right: 20px;
+    padding-left: 20px;
+    background-color:rgb(255, 255, 255);
+    border: 1px double rgb(255, 255, 255);
+}
+
+header>.header-block>a:hover {
+    border: 1px double black;
+    background-color:rgb(206, 206, 206);
+}
+
+
+
+article {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(168, 168, 19);
+}
+
+article > .imgbackground {
+    background-image: url("../img/img1488x837.jpg");
+    height: 800px;
+    padding-top: 250px;
+    display: flex;
+    justify-content: center;
+}
+
+article > .imgbackground > div {
+    background-color: rgb(26, 22, 22);
+    padding-top: 10%;
+    opacity: .75;
+    width: 800px;
+    height: 300px;
+    padding-top: 45px;
+}
+
+article > .imgbackground > div > h1 {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(26, 22, 22);
+    margin-bottom: 35px;
+    color: white;
+}
+article>.imgbackground>div>h2 {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(26, 22, 22);
+    margin-bottom: 35px;
+    color: white;
+}
+
+article>.imgbackground>div>.two_buttons {
+    background-color: rgb(26, 22, 22);
+    padding-top: 3%;
+    padding-left: 10%;
+    padding-right: 10%;
+    display: flex;
+    justify-content: space-around;
+}
+
+article>.imgbackground>div>.two_buttons > a{
+    padding: 15px;
+    display: flex;
+    color: black;
+    width: fit-content;
+    justify-content: center;
+    background-color: rgb(150, 62, 62);
+    border: 1px double rgb(150, 62, 62);
+}
+
+article>.imgbackground>div>.two_buttons>a:hover {
+    border: 1px double black;
+    background-color: rgb(21, 81, 160);
+}
+
+article>.imgbackground>div>.two_buttons>.leftButton {
+    display: flex;
+    color: rgb(255, 255, 255);
+    justify-content: center;
+    background-color: rgb(0, 0, 0);
+    border: 1px double rgb(0, 0, 0);
+}
+
+article>.imgbackground>div>.two_buttons>.rightButton {
+    display: flex;
+    color: rgb(0, 0, 0);
+    justify-content: center;
+    background-color: rgb(255, 255, 255);
+    border: 1px double rgb(255, 255, 255);
+}
+
+article>.ContactUs {
+    display: flex;
+    justify-content: center;
+    padding-top: 100px;
+    background-color: rgb(51, 51, 51);
+    height: 600px;
+}
+
+
+footer {
+    padding-top: 10px;
+    background-color: rgb(66, 117, 117);
+    display: flex;
+    justify-content: center;
+    height: 50px;
+}
