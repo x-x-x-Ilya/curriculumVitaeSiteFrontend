@@ -122,18 +122,83 @@ article>.imgbackground>div>.two_buttons>.rightButton {
 }
 
 article>.ContactUs {
+    margin: 0;
+    color: white;
     display: flex;
     justify-content: center;
-    padding-top: 100px;
+    flex-direction: column;
     background-color: rgb(51, 51, 51);
     height: 600px;
 }
 
 
+article>.ContactUs > h1 {
+    color: white;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(51, 51, 51);
+}
+
+article>.ContactUs > p {
+    color: white;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(51, 51, 51);
+}
+
+article>.ContactUs >.foot {
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(51, 51, 51);
+}
+article>.ContactUs>.foot> div {
+    margin-top: 30px;
+    width: auto;
+    color: white;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(51, 51, 51);
+}
+article>.ContactUs>.foot>div>.locationimg {
+    margin-left: 25px;
+    width: 100px;
+    height: 100px;
+    background-repeat: no-repeat;
+    background-image: url("../img/home.svg");
+    background-color: rgb(51, 51, 51);
+    display: flex;
+    justify-content: center;
+}
+article>.ContactUs>.foot>div>.numberimg {
+    width: 100px;
+    height: 100px;
+    margin-left: 35px;
+    background-color: rgb(51, 51, 51);
+    background-repeat: no-repeat;
+    background-image: url("../img/contacts.svg");
+    display: flex;
+    justify-content: center;
+}
+article>.ContactUs>.foot>div>.mailimg {
+    width: 100px;
+    margin-left: 35px;
+    height: 100px;
+    background-color: rgb(51, 51, 51);
+    background-repeat: no-repeat;
+    background-image: url("../img/email.svg");
+    display: flex;
+    justify-content: center;
+}
+
 footer {
-    padding-top: 10px;
-    background-color: rgb(66, 117, 117);
+    color: white;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    background-color: rgb(37, 37, 37);
     display: flex;
     justify-content: center;
     height: 50px;
+    padding-bottom: 30px;
 }
