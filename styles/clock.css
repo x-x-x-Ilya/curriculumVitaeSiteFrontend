@@ -1,0 +1,98 @@
+body {
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 600px;
+}
+
+.container {
+    display: flex;
+    background-color: black;
+    justify-content: center;
+    padding: 2px;
+    border: 2px double #ff0000;
+    box-shadow: '0px 0px 25px #ff0000';
+}
+
+.number {
+    flex-direction: column;
+    width: 50px;
+    height: 110px;
+    display: flex;
+    background-color: black;
+    margin: 10px;
+}
+
+.line1 {
+    margin: 1px;
+    height: 5px;
+    padding: 1px;
+    border-radius: 10px;
+}
+
+.row {
+    justify-content: space-between;
+    display: inline-flex;
+}
+
+.line2 {
+    margin: 1px;
+    width: 5px;
+    height: 40px;
+    padding: 1px;
+    border-radius: 10px;
+}
+
+.line3 {
+    margin: 1px;
+    width: 5px;
+    height: 40px;
+    padding: 1px;
+    border-radius: 10px;
+}
+
+.line4 {
+    margin: 1px;
+    height: 5px;
+    padding: 1px;
+    border-radius: 10px;
+}
+
+.line5 {
+    width: 5px;
+    height: 40px;
+    padding: 1px;
+    border-radius: 10px;
+
+}
+
+.line6 {
+    width: 5px;
+    height: 40px;
+    padding: 1px;
+    border-radius: 10px;
+}
+
+.line7 {
+    margin: 1px;
+    height: 5px;
+    padding: 1px;
+    border-radius: 10px;
+}
+
+.points {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+
+.point {
+    height: 5px;
+    width: 5px;
+    padding: 1px;
+    margin: 10px;
+    /*border-radius: 10px;*/
+    background-color: #ff0000;
+    box-shadow: 0px 0px 25px #ff0000;
+}
