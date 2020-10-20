@@ -134,8 +134,8 @@ function SetTime(Date) {
 }
 
 const startDate = new Date();
-SetHours(startDate.getHours());
-SetMinutes(startDate.getMinutes());
-SetSeconds(startDate.getSeconds());
+setTwoNumbers(startDate.getHours(), "hh");
+setTwoNumbers(startDate.getMinutes(), "mm");
+setTwoNumbers(startDate.getSeconds(), "ss");
 
 setInterval(() => SetTime(new Date()), 100);
